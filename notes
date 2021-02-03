@@ -12,3 +12,13 @@ Inner Join syntax basically compares rows of Table1 with Table2 to check
 if anything matches based on the condition provided in the ON clause. When 
 the Join condition is met, it returns matched rows in both tables with the selected columns in the SELECT clause.
 ========================================================================================================================
+SQL Join Example
+
+Let’s say we want to find all orders placed by a particular customer. We can do this by joining the customers and 
+orders tables together using the relationship established by the customer_id key:
+
+| select order_date, order_amount
+| from customers
+| join orders
+|   on customers.customer_id = orders.customer_id
+| where customer_id = 3

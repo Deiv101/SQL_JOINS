@@ -1,0 +1,11 @@
+
+SQL INNER JOIN
+
+Below is the basic syntax of Inner Join.
+
+SELECT Column_list
+FROM TABLE1
+INNER JOIN TABLE2
+ON Table1.ColName = Table2.ColName
+
+Inner Join syntax basically compares rows of Table1 with Table2 to check if anything matches based on the condition provided in the ON clause. When the Join condition is met, it returns matched rows in both tables with the selected columns in the SELECT clause.

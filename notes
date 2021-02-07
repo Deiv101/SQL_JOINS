@@ -29,5 +29,9 @@ the on customers.customer_id = orders.customer_id line following the join statem
 SQL query, which includes two orders placed by Thomas Jefferson (customer_id = 3):
 
 GENERAL SYNTAX FOR JOIN:
-
-
+__________________________________________________
+SELECT column-names
+  FROM table-name1 JOIN table-name2 
+    ON column-name1 = column-name2
+ WHERE condition
+ ___________________________________

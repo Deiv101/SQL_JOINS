@@ -32,6 +32,6 @@ GENERAL SYNTAX FOR JOIN:
 _____________________________________
 SELECT column_names                 |
   FROM table_name1 JOIN table_name2 |
-    ON column_name1 = column-name2  |
+    ON column_name1 = column_name2  |
  WHERE condition                    |
  ___________________________________|

@@ -27,3 +27,7 @@ __________________________________________________
 Here, we’re joining the two tables using the join keyword, and specifying what key to use when joining the tables in 
 the on customers.customer_id = orders.customer_id line following the join statement. Here is the result of the above 
 SQL query, which includes two orders placed by Thomas Jefferson (customer_id = 3):
+
+GENERAL SYNTAX FOR JOIN:
+
+

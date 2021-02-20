@@ -36,3 +36,4 @@ SELECT column_names                 |
     ON column_name1 = column_name2  |
  WHERE condition                    |
  ___________________________________|
+ 

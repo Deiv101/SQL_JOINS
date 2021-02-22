@@ -1,7 +1,7 @@
 
 SQL INNER JOIN    
   
-Below is the basic syntax of Inner Join.  
+Below is the basic syntax of Inner Join.   
      
 SELECT Column_list         
 FROM TABLE1        
